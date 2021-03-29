@@ -11,7 +11,6 @@ int main(void)
 
     srand(time(0));
     clock_t go1, stop1, go2, stop2;
-    
    
     for ( i = 0; i < N; i++) {
          arr1[i] = rand() % 100;
@@ -22,7 +21,6 @@ int main(void)
         arr2[i] = arr1[i];
 
     }
-    
 
     for (i = 0; i < N; i++)
     {
